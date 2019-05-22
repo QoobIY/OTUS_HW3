@@ -1,5 +1,10 @@
+from os import path
+
+
 def response(filename, params={}):
     try:
+        if not path.exists("template"):
+            raise Exception('Template folder doesn\'t exist')
         file = open('template/' + filename + '.html', 'r')
         data = file.read()
     except:

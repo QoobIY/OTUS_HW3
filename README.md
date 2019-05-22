@@ -12,20 +12,7 @@ pip install parse
 
 
 ## Usage
-To start the server write in bash console
-```bash
-python main.py <PORT>
-```
-For Example, this is how server start with port 8082
-```bash
-python main.py 8082
->>Serving on port 8082...
->>192.168.1.1 - - [20/May/2019 12:33:34] "GET / HTTP/1.1" 200 510
->>192.168.1.1 - - [20/May/2019 12:33:34] "GET /favicon.ico HTTP/1.1" 200 30
-...
->>192.168.101.127 - - [20/May/2019 12:34:04] "GET /hello HTTP/1.1" 200 330
->>192.168.101.127 - - [20/May/2019 12:34:04] "GET /favicon.ico HTTP/1.1" 200 30
-```
+See [Writing First App]('/docs/FIRST_APP.md')
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
